@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe | Frontend Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="profile-img"></div>
+            <h1>Pranay Rathod</h1>
+            <p>Frontend Developer | Web Enthusiast</p>
+        </header>
+        <section class="contact">
+            <p><strong>Email:</strong> rpranay238@gmail.com</p>
+            <p><strong>Phone:</strong>9322413469</p>
+            <!-- <p><strong>Website:</strong> <a href="https://www.pranayrathod.com" target="_blank">www.johndoe.com</a></p> -->
+        </section>
+        <section class="about">
+            <h2>About Me</h2>
+            <p>A passionate frontend developer skilled in building dynamic and responsive web applications with modern technologies.</p>
+        </section>
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React.js</li>
+                <li>Java DSA</li>
+                <li>Python</li>
+            </ul>
+        </section>
+        <section class="experience">
+            <h2>Experience</h2>
+            <p><strong>Frontend Developer</strong> <!-- ABC Company (2022 - Present)</p> -->
+            <p>Designed and developed interactive UI components, improving user experience and optimizing performance.</p>
+        </section>
+        <section class="education">
+            <h2>Education</h2>
+            <p>Bachelor’s in Computer Science - SGBAU University (2022 - 2026)</p>
+        </section>
+    </div>
+</body>
+</html>
+
+<!-- /* styles.css */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+header {
+    padding: 20px;
+    border-bottom: 2px solid white;
+}
+.profile-img {
+    width: 100px;
+    height: 100px;
+    background: url('profile.jpg') center/cover;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+}
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+a {
+    color: #ffdd57;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    background: rgba(255, 255, 255, 0.3);
+    color: black;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+li:hover {
+    transform: scale(1.05);
+}
+
+/* script.js */
+document.addEventListener("DOMContentLoaded", () => {
+    const skills = document.querySelectorAll(".skills ul li");
+    skills.forEach((skill, index) => {
+        skill.style.opacity = "0";
+        setTimeout(() => {
+            skill.style.opacity = "1";
+            skill.style.transition = "opacity 0.5s ease-in-out, transform 0.3s ease-in-out";
+            skill.style.transform = "translateY(0)";
+        }, index * 300);
+    });
+});
+
+ -->
